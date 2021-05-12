@@ -1,4 +1,4 @@
-# Transpilación TypeScript a javaScript
+# Transpilación TypeScript a JavaScript
 
 ## Instalación
 
