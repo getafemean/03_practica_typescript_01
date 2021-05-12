@@ -34,6 +34,12 @@ function getMensaje(mensaje) {
 function resta(a, b) {
     return a - b;
 }
+// Parámetros opcionales
+function multiplicacion(a, b, mensaje) {
+    return mensaje ? mensaje + a * b : 'El resultado es ' + a * b;
+}
+var resultado3 = multiplicacion(12, 5);
+var resultado4 = multiplicacion(12, 5, 'Solución: ');
 // Tipos de genéricos (definición en tiempo de invocación)
 function getResultado(valor) {
     return 'El resultado es ' + valor;

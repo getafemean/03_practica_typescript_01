@@ -57,6 +57,15 @@ function resta(a, b) {  // En las funciones no es obligatorio introducir tipos
     return a - b;
 }
 
+// Parámetros opcionales
+
+function multiplicacion(a: number, b: number, mensaje?: string ): string {
+    return mensaje ? mensaje + a * b : 'El resultado es ' + a * b;
+}
+
+const resultado3 = multiplicacion(12, 5);
+const resultado4 = multiplicacion(12, 5, 'Solución: ');
+
 // Tipos de genéricos (definición en tiempo de invocación)
 
 function getResultado<T> (valor: T): string {
